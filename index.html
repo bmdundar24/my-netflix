@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MyNetflix</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <header>
+                <h1>NET<span>FLIX</span> </h1>
+                <p>Thank you for singigng up at Netflix.Tell us more about your self</p>
+            </header>
+            <main class="main">
+                <form action="result.html" method="get ">
+                    <label for="name">Name</label> <br>
+                    <input type="text" name="Name" id="name"><br>
+                    <label for="age">Age </label><br>
+                    <input type="number" name="Age" id="age"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="Email" id="email"><br>
+                    <label for="type">Content type</label><br>
+                    <select name="option" id="type">
+                        <option value="dizies">Series</option>
+                        <option value="Movie">Movie</option>
+                    </select><br><br>
+                    <div class="box">
+                        <label for="movie">Movie type</label><br>
+                        <input type="checkbox" name="comedy" id="movie" value="comedy">
+                        <label for="movie">Comedy</label><br>
+                        <input type="checkbox" name="action" id="movie" value="Action">
+                        <label for="movie">Action</label><br>
+                        <input type="checkbox" name="comedy" id="movie" value="Romance" checked>
+                        <label for="movie">Romance</label>
+                    </div>
+                    
+                    <br><br>
+                    <div class="box">
+                        <label for="gender">Gender</label><br>
+                        <input type="radio" name="x" id="gender" value="Male"><br>
+                        <label for="">Male</label><br>
+                        <input type="radio" name="x" id="gender" value="Male">
+                        <label for="">Female</label><br>
+                        <input type="radio" name="x" id="gender" value="Other">
+                        <label for="">Other</label>
+                    
+                        <p>Feed back</p>
+                        <textarea name="area" id="yorum" cols="30" rows="5" placeholder="Any comment"></textarea><br>
+                        
+                    </div>
+                    <div class="text-center">
+                        <input id="submit" type="submit" value="Submit">
+                    </div>
+                    
+                </form>
+            </main>
+        </div>
+        
+    </div>
+</body>
+</html>
